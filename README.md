@@ -31,32 +31,13 @@ So I started from scratch:
 Completed the entire project in **just 18 hours**.  
 A sprint of pure focus, code, and creativity.  
 ---
-
 ## over view
+
+
 https://github.com/user-attachments/assets/262bdda2-f3c5-444b-91ee-5d3962dca727
----
 
-## Folder Structure
 
-Emp_management_Fullstack/
-│
-├── Emp_Backend/ # Node.js + Express backend
-│ ├── node_modules/
-│ ├── routes/
-│ ├── controllers/
-│ ├── models/
-│ ├── .env
-│ ├── package.json
-│ └── server.js
-│
-├── Emp_Frontend/ # React.js frontend
-│ ├── node_modules/
-│ ├── public/
-│ ├── src/
-│ ├── package.json
-│ └── vite.config.js
-│
-└── README.md
+
 ---
 
 ## Features
