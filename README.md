@@ -70,5 +70,5 @@ npm start
 ### frontend
 ```bash
 cd Emp_Backend
-npm install
-npm start
+npm run dev
+
