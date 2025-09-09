@@ -1,12 +1,26 @@
+---
+## Evidence
+
+
+https://github.com/user-attachments/assets/262bdda2-f3c5-444b-91ee-5d3962dca727
+
+
+---
+
+
+## Time Taken ⏱️
+Completed the entire project in **just 18 hours**.  
+A sprint of pure focus, code, and creativity.  
+
+---
 # Employee Management Fullstack
 
 This is a **Fullstack Employee Management System** built with love ❤️ in just **18 hours**.  
 The project contains:
 
 - **Backend** → Node.js, Express.js with MySQL Database.  
-- **Frontend** → React.js .  
----
-
+- **Frontend** → React.js .
+- 
 ## project Description
 
 I wanted to create something simple yet powerful –  
@@ -18,28 +32,6 @@ So I started from scratch:
 - Connected both sides → and boom 💥 the system came alive!  
 
 ---
-
-## Tech Stack
-
-- **Backend**: Node.js, Express.js, MySQL  
-- **Frontend**: React.js  
-- **Animations**: GSAP (GreenSock Animation Platform)  
-
----
-
-## Time Taken ⏱️
-Completed the entire project in **just 18 hours**.  
-A sprint of pure focus, code, and creativity.  
----
-## over view
-
-
-https://github.com/user-attachments/assets/262bdda2-f3c5-444b-91ee-5d3962dca727
-
-
-
----
-
 ## Features
 
 - User Authentication (Signup & Login)
@@ -49,7 +41,6 @@ https://github.com/user-attachments/assets/262bdda2-f3c5-444b-91ee-5d3962dca727
 - Environment variables for security
 
 ---
-
 
 ## Major Packages Used
 
