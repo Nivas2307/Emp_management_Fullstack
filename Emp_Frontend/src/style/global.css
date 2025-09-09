@@ -1,0 +1,94 @@
+/*-------------------------Global Reset & Typography------------------------ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  background: #f6f7fb;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*---------------------------Links & Button------------------------*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  border-radius: 6px;
+}
+
+/*------------------Layout Helpers=--------------------------------*/
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  height: calc(100vh - 20px);
+}
+
+.content {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+/*--------------------------- no records -----------------------------------*/
+.norecords {
+  text-align: center;
+  margin: 100px auto;
+  padding: 50px 30px;
+  max-width: 600px;
+  background: #fdfdfd;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  color: #333;
+  position: relative;
+  overflow: hidden;
+}
+
+.norecords-heading {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+.norecords-hr {
+  width: 100px;
+  height: 4px;
+  margin: 20px auto 30px;
+  border: none;
+  border-radius: 3px;
+  background: #007bff;
+  box-shadow: 0 0 10px #007bff, 0 0 20px #007bff55;
+  transform-origin: left;
+}
+
+.norecords-para {
+  font-size: 1.3rem;
+  color: #555;
+}
+
+.norecords-link {
+  color: #007bff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.norecords-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}

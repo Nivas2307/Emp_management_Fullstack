@@ -1,0 +1,133 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f3f5f9;
+  box-shadow: 0px 0px 5px gray;
+  position: relative;
+  z-index: 10;
+}
+
+.topbar-left .brand {
+  font-size: 20px;
+  font-weight: bold;
+  color:#2b8cfc ;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  color: #555;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.icon-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.profile-area {
+  position: relative;
+}
+
+.profile-pic {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+  padding: 2px;
+}
+
+/* ----------------Active profile background when dropdown open ------------------*/
+.profile-pic.active {
+  background-color: #555; 
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #ffffff;
+  color: #111;
+  min-width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  padding: 15px;
+  overflow: hidden;
+  pointer-events: auto;
+}
+
+.profile-row {
+ display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile-lg {
+ width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  border: 2px solid #1f2937;
+}
+
+.pd-name {
+  font-weight: bold;
+  text-align: center;
+    font-size: 14px;
+  margin-bottom: 3px;
+  
+}
+
+.pd-email,
+.pd-phone {
+  font-size: 14px;
+  margin-bottom: 3px;
+  color: #555;
+  text-align: center;
+
+}
+
+.pd-actions {
+   text-align: center;
+
+}
+
+.btn-logout {
+  background-color: #ef4444;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.2s;
+}
+
+.btn-logout:hover {
+  background-color: #dc2626;
+}
+.brand-logo {
+  width: 150px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.brand-logo:hover {
+  transform: scale(1.05); /* subtle hover animation */
+}
+
