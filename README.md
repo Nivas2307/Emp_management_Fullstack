@@ -1,13 +1,13 @@
 # Employee Management Fullstack
 
-This is a **Fullstack Employee Management System** built with love ❤️ in just **1 day**.  
+This is a **Fullstack Employee Management System** built with love ❤️ in just **18 hours**.  
 The project contains:
 
 - **Backend** → Node.js, Express.js with MySQL Database.  
 - **Frontend** → React.js .  
 ---
 
-## Why this project?
+## project Description
 
 I wanted to create something simple yet powerful –  
 A system where employees can be added, viewed, updated, and deleted easily.  
@@ -68,10 +68,17 @@ https://github.com/user-attachments/assets/262bdda2-f3c5-444b-91ee-5d3962dca727
 - **gsap** – Real-time animations  
 - **react-icons** – Icons library  
 
-
 ## How to Run
 
 ### Backend
+```bash
+cd Emp_Backend
+npm install
+npm start
+
+---
+
+### frontend
 ```bash
 cd Emp_Backend
 npm install
